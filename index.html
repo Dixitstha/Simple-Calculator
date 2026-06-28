@@ -1,50 +1,48 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Simple Calculator</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="Script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <input id="display" placeholder="0" />
 
-  <div class="calculator">
+      <div class="row">
+        <button class="btn" id="clear">AC</button>
+        <button class="btn" id="singledel">DEL</button>
+        <button class="btn" id="divide">/</button>
+        <button class="btn" id="mul">*</button>
+      </div>
 
-    <input type="text" class="display" placeholder="0">
+      <div class="row">
+        <button class="btn" id="seven">7</button>
+        <button class="btn" id="eight">8</button>
+        <button class="btn" id="nine">9</button>
+        <button class="btn" id="sub">-</button>
+      </div>
 
-    <div class="row">
-      <button class="btn ac">AC</button>
-      <button class="btn">%</button>
-      <button class="btn">/</button>
-      <button class="btn">*</button>
+      <div class="row">
+        <button class="btn" id="four">4</button>
+        <button class="btn" id="five">5</button>
+        <button class="btn" id="six">6</button>
+        <button class="btn" id="add">+</button>
+      </div>
+
+      <div class="row">
+        <button class="btn" id="one">1</button>
+        <button class="btn" id="two">2</button>
+        <button class="btn" id="three">3</button>
+        <button class="btn" id="dot">.</button>
+      </div>
+
+      <div class="row">
+        <button class="btn" id="zero">0</button>
+        <button class="btn" id="equals">=</button>
+      </div>
     </div>
-
-    <div class="row">
-      <button class="btn">7</button>
-      <button class="btn">8</button>
-      <button class="btn">9</button>
-      <button class="btn">-</button>
-    </div>
-
-    <div class="row">
-      <button class="btn">4</button>
-      <button class="btn">5</button>
-      <button class="btn">6</button>
-      <button class="btn">+</button>
-    </div>
-
-    <div class="row">
-      <button class="btn">1</button>
-      <button class="btn">2</button>
-      <button class="btn">3</button>
-      <button class="btn equal">=</button>
-    </div>
-
-    <div class="row">
-      <button class="btn">0</button>
-      <button class="btn">.</button>
-    </div>
-
-  </div>
-
-</body>
-<script src="script.js"></script>
+  </body>
 </html>
